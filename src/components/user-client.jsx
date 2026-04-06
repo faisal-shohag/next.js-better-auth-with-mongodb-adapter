@@ -24,7 +24,7 @@ const User = () => {
       {user ? (
         <>
           <h1 className="text-xl font-bold">User Info</h1>
-          <img src={user.image} alt={user.name} width={100} />
+          <img referrerPolicy="no-referrer" src={user.image} alt={user.name} width={100} />
           <p>Name: {user.name}</p>
           <p>Email: {user.email}</p>
 
